@@ -2,6 +2,11 @@
     --poke-red: #e73131;
 }
 
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
 #header{
     background-image: linear-gradient(#ed425f, #df001a);
     height: 250px;
@@ -72,11 +77,10 @@
 }
 
 .menu{
-    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 0;
+    margin-bottom: 20px;
 }
 
 .menu p{
@@ -96,7 +100,7 @@
 .searchbar{
     border-bottom: 1px solid black;
     width: min-content;
-    margin-left: 200px;
+    margin-left: 150px;
     display: flex;
 }
 
