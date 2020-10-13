@@ -5,7 +5,7 @@
 #header{
     background-image: linear-gradient(#ed425f, #df001a);
     height: 250px;
-    margin-bottom: 150px;
+    margin-bottom: 95px;
 }
 
 .images{
@@ -64,4 +64,67 @@
     width: 200px;
     border-radius: 50%;
     position: absolute;
+}
+
+#container{
+    border: 2px solid black;
+    height: 250px;
+}
+
+.menu{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.menu p{
+    padding: 0 30px;
+    font-size: 1.3rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu, p .pokedex{
+    color: var(--poke-red);
+}
+
+.searchbar{
+    border-bottom: 1px solid black;
+    width: min-content;
+    margin-left: 200px;
+    display: flex;
+}
+
+.searchbar input{
+    font-size: 1.3rem;
+    border: none;
+}
+
+.searchbar img{
+    height: 25px;
+    width: 25px;
+    padding-top: 2px;
+}
+
+
+
+
+
+
+@media (max-width: 574px){
+    .menu p{
+        padding: 0 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 790px){
+    .searchbar{
+        margin-left: 30px;
+    }
 }
