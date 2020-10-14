@@ -1,5 +1,5 @@
 :root{
-    --poke-red: #e73131;
+    --poke-red: #ff0000;
 }
 
 html, body{
@@ -56,6 +56,7 @@ html, body{
     font-size: 1.6rem;
     max-height: 75px;
     text-align: center;
+    padding-top: 8px;
 }
 
 .avatar{
@@ -66,15 +67,15 @@ html, body{
 }
 
 .avatar-image{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     position: absolute;
 }
 
 #container{
     border: 2px solid black;
-    height: 250px;
+    min-height: 500px;
 }
 
 .menu{
@@ -116,10 +117,58 @@ html, body{
     padding-top: 2px;
 }
 
+.grid-container{
+    border: 1px solid black;
+    display: grid;
+    gap: 40px 20px; 
+    grid-template-columns: repeat(3, 1fr);
 
+    margin: 60px 150px;
+    width: fit-content;
+}
 
+.grid-item{
+    border: 2px solid var(--poke-red);
+    border-radius: 0.3rem;
 
+    display: flex;
+    max-width: 450px;
+    min-height: 150px;
+}
 
+.grid-item img{
+    max-width: 150px;
+    padding-left: 25px;
+}
+
+.info{
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+.info span{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.info img{
+    max-width: 30px;
+    max-height: 30px;
+
+    padding: 10px 0 0 40px;
+}
+
+.info p{
+    border-radius: 0.5rem;
+
+    margin-left: 12px;
+
+    width: min-content;
+    padding: 5px 8px;
+
+    background-color: grey;
+    color: white;
+}
 
 @media (max-width: 574px){
     .menu p{
