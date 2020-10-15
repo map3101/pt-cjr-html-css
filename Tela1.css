@@ -10,7 +10,7 @@ html, body{
 #header{
     background-image: linear-gradient(#ed425f, #df001a);
     height: 260px;
-    margin-bottom: 105px;
+    margin-bottom: 85px;
 }
 
 .images{
@@ -118,12 +118,12 @@ html, body{
 }
 
 .grid-container{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 0, 0);
     display: grid;
     gap: 40px 20px; 
     grid-template-columns: repeat(3, 1fr);
 
-    margin: 60px 150px;
+    margin: 60px 150px 0 150px;
     width: fit-content;
 }
 
@@ -163,11 +163,41 @@ html, body{
 
     margin-left: 12px;
 
+    font-size: 15px;
+
     width: min-content;
     padding: 5px 8px;
 
     background-color: grey;
     color: white;
+}
+
+.paginas{
+    text-align: center;
+    font-size: 1.6rem;
+    height: 40px;
+
+    margin-top: 10px;
+
+    padding-top: 25px;
+
+    color: var(--poke-red);
+}
+
+.paginas a{
+    text-decoration: none;
+    color: var(--poke-red);
+
+    padding: 9px 15px 7px 15px;
+
+    margin: 0 8px 0 8px;
+}
+
+#pag1{
+    border-radius: 50%;
+
+    color: white;
+    background-color: var(--poke-red);
 }
 
 @media (max-width: 574px){
