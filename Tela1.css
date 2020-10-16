@@ -137,47 +137,77 @@ html, body{
 }
 
 .grid-item img{
-    max-width: 150px;
-    padding-left: 25px;
+    max-width: 140px;
+    padding-left: 20px;
+}
+
+#bulbassauro{
+    max-width: 130px;
 }
 
 .info{
     border: 1px solid black;
-    margin-left: 40px;
+    min-width: 212px;
+    
+    margin-right: 20px;
+    margin-left: auto;
 }
 
 .info span{
     font-size: 1.4rem;
     font-weight: bold;
+
+    margin: 10px 0 0 0;
 }
 
 .info img{
+    border: 1px solid black;
     max-width: 30px;
     max-height: 30px;
 
-    padding: 10px 0 0 40px;
+    margin: 10px 15px 0 0;
 }
 
-.info p{
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.type{
+    display: flex;
+    border: 1px solid black;
+}
+
+.type p{
     border-radius: 0.5rem;
 
     margin-left: 12px;
 
     font-size: 15px;
 
-    width: min-content;
+    width: 70px;
     padding: 5px 8px;
 
     background-color: grey;
     color: white;
+    text-align: center;
 }
+
+#g{
+    background-color: #00ad67;
+}
+
+#p{
+    background-color: #9e56d9;
+}
+
 
 .paginas{
     text-align: center;
     font-size: 1.6rem;
     height: 40px;
 
-    margin-top: 10px;
+    margin-top: 5px;
 
     padding-top: 25px;
 
