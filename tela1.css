@@ -5,6 +5,8 @@
 html, body{
     margin: 0;
     height: 100%;
+
+    font-family: 'Open Sans', sans-serif;
 }
 
 #header{
@@ -54,7 +56,7 @@ html, body{
 
 .text{
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     max-height: 75px;
     text-align: center;
     padding-top: 8px;
@@ -220,7 +222,7 @@ html, body{
     text-decoration: none;
     color: var(--poke-red);
 
-    padding: 9px 15px 7px 15px;
+    padding: 4px 15px 4px 15px;
 
     margin: 0 8px 0 8px;
 }
@@ -321,13 +323,16 @@ html, body{
     width: fit-content;
 }
 
-/* Ataque e defesa possuem a mesma qtd de letras */
-#atadef{
-    margin-left: 153px;
+#ataque{
+    margin-left: 155px;
+}
+
+#defesa{
+    margin-left: 160px;
 }
 
 #velocidade{
-    margin-left: 108px;
+    margin-left: 121px;
 }
 
 .atr{
