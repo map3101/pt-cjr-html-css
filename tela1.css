@@ -11,7 +11,7 @@ html, body{
 
 #header{
     background-image: linear-gradient(#ed425f, #df001a);
-    height: 260px;
+    height: 250px;
     margin-bottom: 80px;
 }
 
@@ -26,6 +26,12 @@ html, body{
 
 .images img{
     filter: invert(100%);
+
+    transition: filter 0.3s;
+}
+
+.images img:hover{
+    filter: invert(70%);
 }
 
 .logo{
@@ -56,10 +62,10 @@ html, body{
 
 .text{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     max-height: 75px;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 6px;
 }
 
 .avatar{
@@ -173,6 +179,17 @@ html, body{
 .name{
     display: flex;
     justify-content: space-between;
+}
+
+.name a{
+    text-decoration: none;
+    color: black;
+
+    transition: color 0.3s;
+}
+
+.name a:hover{
+    color: #6b6b6b;
 }
 
 .type{
