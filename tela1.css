@@ -278,7 +278,7 @@ html, body{
 #header2{
     background-image: linear-gradient(#ed425f, #df001a);
     height: 250px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .return{
@@ -313,13 +313,17 @@ html, body{
     justify-content: space-evenly;
 
     width: 55rem;
-    margin: 20px auto 50px auto;
+    margin: 20px auto 10px auto;
 }
 
 .img-nome img{
     width: 300px;
 
     margin-right: 50px;
+}
+
+.nome{
+    padding-top: 20px;
 }
 
 .nome p{
@@ -359,6 +363,10 @@ html, body{
     width: fit-content;
 
     margin-left: 610px;
+}
+
+.atributos h1{
+    margin-top: 10px;
 }
 
 .atr-div{
