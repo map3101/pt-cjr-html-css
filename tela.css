@@ -13,6 +13,7 @@ html, body{
     background-image: linear-gradient(#ed425f, #df001a);
     height: 250px;
     margin-bottom: 80px;
+    border-bottom: 10px solid black;
 }
 
 .images{
@@ -80,9 +81,10 @@ html, body{
 }
 
 .avatar-image{
-    height: 180px;
-    width: 180px;
+    height: 170px;
+    width: 170px;
     border-radius: 50%;
+    border: 10px solid black;
     position: absolute;
 }
 
@@ -244,9 +246,9 @@ html, body{
     width: 500px;
     height: 40px;
 
-    margin: 5px auto 0 auto;
+    margin: 0 auto;
 
-    padding-top: 25px;
+    padding-top: 22px;
 
     color: var(--poke-red);
 }
