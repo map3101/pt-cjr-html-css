@@ -92,11 +92,19 @@ html, body{
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+
+    height: 71.6px;
 }
 
 .menu p{
     padding: 0 30px;
     font-size: 1.3rem;
+
+    transition: font-size 0.3s;
+}
+
+.menu p:hover{
+    font-size: 1.5rem;
 }
 
 .menu a{
@@ -293,7 +301,7 @@ html, body{
 .nome p{
     font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 #pokename{
@@ -331,18 +339,19 @@ html, body{
 
 .atr-div{
     width: fit-content;
+    margin-top: 5px;
 }
 
 #ataque{
-    margin-left: 154px;
+    margin-left: 153px;
 }
 
 #defesa{
-    margin-left: 159px;
+    margin-left: 158px;
 }
 
 #velocidade{
-    margin-left: 118px;
+    margin-left: 117px;
 }
 
 .atr{
