@@ -56,6 +56,10 @@ html, body{
     margin-left: 8px;
 }
 
+.icons img:hover{
+    cursor: pointer;
+}
+
 .person{
     margin-right: 30px;
 }
@@ -271,9 +275,15 @@ html, body{
 
 /* Style página 2 */
 
+#header2{
+    background-image: linear-gradient(#ed425f, #df001a);
+    height: 250px;
+    margin-bottom: 60px;
+}
+
 .return{
     margin-left: 150px;
-    width: min-content;
+    width: fit-content;
 
     font-weight: bold;
     font-size: 1.2rem;
@@ -282,6 +292,20 @@ html, body{
 .return a{
     text-decoration: none;
     color: black;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.5px;
+    margin-right: 4px;
+    margin-bottom: 1px;
+}
+
+.left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
 }
 
 .img-nome{
@@ -328,7 +352,7 @@ html, body{
     color: white;
     text-align: center;
 
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .atributos{
