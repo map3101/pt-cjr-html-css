@@ -154,6 +154,7 @@ html, body{
     border-radius: 0.3rem;
 
     display: flex;
+    min-width: 450px;
     max-width: 450px;
     min-height: 150px;
 }
@@ -164,7 +165,7 @@ html, body{
 }
 
 #bulbassauro{
-    max-width: 130px;
+    max-width: 125px;
 }
 
 .info{
@@ -206,6 +207,11 @@ html, body{
 
 .type{
     display: flex;
+    margin-left: 15px;
+}
+
+#bulba{
+    margin-left: 24px;
 }
 
 .type p{
@@ -235,9 +241,10 @@ html, body{
 .paginas{
     text-align: center;
     font-size: 1.6rem;
+    width: 500px;
     height: 40px;
 
-    margin-top: 5px;
+    margin: 5px auto 0 auto;
 
     padding-top: 25px;
 
@@ -270,6 +277,12 @@ html, body{
 @media (max-width: 790px){
     .searchbar{
         margin-left: 30px;
+    }
+}
+
+@media (max-width: 1575px){
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
